@@ -1,0 +1,7 @@
+NaiveMethod.c: In function ‘main’:
+NaiveMethod.c:19:2: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   19 |  fgets(text, sizeof(text), stdin);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+NaiveMethod.c:22:2: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   22 |  fgets(pattern, sizeof(pattern), stdin);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

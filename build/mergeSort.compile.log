@@ -1,0 +1,7 @@
+mergeSort.c: In function ‘main’:
+mergeSort.c:53:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   53 |     scanf("%d", &n);
+      |     ^~~~~~~~~~~~~~~
+mergeSort.c:57:9: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   57 |         scanf("%d", &a[i]);
+      |         ^~~~~~~~~~~~~~~~~~

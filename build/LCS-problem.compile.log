@@ -1,0 +1,7 @@
+LCS-problem.c: In function ‘main’:
+LCS-problem.c:60:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   60 |     fgets(x, sizeof(x), stdin);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+LCS-problem.c:64:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   64 |     fgets(y, sizeof(y), stdin);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~

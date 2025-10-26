@@ -1,0 +1,129 @@
+AoA Code Report - Sun Oct 26 15:45:35 UTC 2025
+
+== AllPairShortestPath.c ==
+Compile: OK
+
+Run output: (no output / likely waiting for input)
+
+== Knapsack.c ==
+Compile: FAIL
+Compile log:
+    Knapsack.c: In function ‘main’:
+    Knapsack.c:59:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+       59 |     scanf("%d", &n);
+          |     ^~~~~~~~~~~~~~~
+    Knapsack.c:63:9: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+       63 |         scanf("%f", &w[i]);
+          |         ^~~~~~~~~~~~~~~~~~
+    Knapsack.c:67:9: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+       67 |         scanf("%f", &p[i]);
+          |         ^~~~~~~~~~~~~~~~~~
+    Knapsack.c:70:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+       70 |     scanf("%f", &M);
+          |     ^~~~~~~~~~~~~~~
+
+Run output: (no output / likely waiting for input)
+
+== LCS-problem.c ==
+Compile: FAIL
+Compile log:
+    LCS-problem.c: In function ‘main’:
+    LCS-problem.c:60:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+       60 |     fgets(x, sizeof(x), stdin);
+          |     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+    LCS-problem.c:64:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+       64 |     fgets(y, sizeof(y), stdin);
+          |     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Run output: (no output / likely waiting for input)
+
+== N-Queen-Probelm.c ==
+Compile: FAIL
+Compile log:
+    N-Queen-Probelm.c: In function ‘place’:
+    N-Queen-Probelm.c:11:27: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
+       11 |         if (x[j] == l || (abs(x[j] - l) == abs(j - k)))
+          |                           ^~~
+    N-Queen-Probelm.c:3:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘abs’
+        2 | #include <math.h>
+      +++ |+#include <stdlib.h>
+        3 | 
+    N-Queen-Probelm.c: In function ‘main’:
+    N-Queen-Probelm.c:43:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+       43 |     scanf("%d", &n);
+          |     ^~~~~~~~~~~~~~~
+
+Run output: (no output / likely waiting for input)
+
+== NaiveMethod.c ==
+Compile: FAIL
+Compile log:
+    NaiveMethod.c: In function ‘main’:
+    NaiveMethod.c:19:2: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+       19 |  fgets(text, sizeof(text), stdin);
+          |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    NaiveMethod.c:22:2: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+       22 |  fgets(pattern, sizeof(pattern), stdin);
+          |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Run output: (no output / likely waiting for input)
+
+== binarySearch.c ==
+Compile: FAIL
+Compile log:
+    binarySearch.c: In function ‘main’:
+    binarySearch.c:25:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+       25 |     scanf("%d", &n);
+          |     ^~~~~~~~~~~~~~~
+    binarySearch.c:30:9: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+       30 |         scanf("%d", &a[i]);
+          |         ^~~~~~~~~~~~~~~~~~
+    binarySearch.c:34:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+       34 |     scanf("%d", &x);
+          |     ^~~~~~~~~~~~~~~
+
+Run output: (no output / likely waiting for input)
+
+== insertionSort.c ==
+Compile: FAIL
+Compile log:
+    insertionSort.c:2:9: fatal error: conio.h: No such file or directory
+        2 | #include<conio.h>
+          |         ^~~~~~~~~
+    compilation terminated.
+
+Run: No executable / not run
+
+== mergeSort.c ==
+Compile: FAIL
+Compile log:
+    mergeSort.c: In function ‘main’:
+    mergeSort.c:53:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+       53 |     scanf("%d", &n);
+          |     ^~~~~~~~~~~~~~~
+    mergeSort.c:57:9: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+       57 |         scanf("%d", &a[i]);
+          |         ^~~~~~~~~~~~~~~~~~
+
+Run output: (no output / likely waiting for input)
+
+== quicksort.c ==
+Compile: FAIL
+Compile log:
+    quicksort.c:2:9: fatal error: conio.h: No such file or directory
+        2 | #include<conio.h>
+          |         ^~~~~~~~~
+    compilation terminated.
+
+Run: No executable / not run
+
+== selectionSort.c ==
+Compile: FAIL
+Compile log:
+    selectionSort.c:2:9: fatal error: conio.h: No such file or directory
+        2 | #include<conio.h>
+          |         ^~~~~~~~~
+    compilation terminated.
+
+Run: No executable / not run
+
